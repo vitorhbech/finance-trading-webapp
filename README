@@ -55,7 +55,7 @@ git clone <your-repository-url>
 Enter the project directory:
 
 ```bash
-cd stock-trading-simulator
+cd finance-trading-webapp
 ```
 
 Create a virtual environment:
