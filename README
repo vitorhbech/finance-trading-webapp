@@ -1,0 +1,121 @@
+# finance Trading Webapp
+
+A web application inspired by real-world stock trading platforms, developed with Flask during Harvard's CS50x course.
+
+This project allows users to simulate stock market operations such as buying and selling shares, tracking portfolio value, and viewing transaction history in a secure authenticated environment.
+
+---
+
+## Features
+
+- User registration and authentication
+- Real-time stock quote lookup
+- Buy shares using virtual cash
+- Sell owned shares
+- Portfolio tracking
+- Transaction history
+- Responsive interface
+
+---
+
+## Tech Stack
+
+- Python
+- Flask
+- SQLite
+- HTML5
+- CSS3
+- Bootstrap
+- Jinja2
+
+---
+
+## Project Structure
+
+```bash
+.
+├── app.py
+├── helpers.py
+├── requirements.txt
+├── static/
+├── templates/
+└── README.md
+```
+
+---
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone <your-repository-url>
+```
+
+Enter the project directory:
+
+```bash
+cd stock-trading-simulator
+```
+
+Create a virtual environment:
+
+```bash
+python -m venv venv
+```
+
+Activate the virtual environment:
+
+### Windows
+```bash
+venv\Scripts\activate
+```
+
+### macOS/Linux
+```bash
+source venv/bin/activate
+```
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the application:
+
+```bash
+flask run
+```
+
+---
+
+## Learning Outcomes
+
+This project helped reinforce concepts such as:
+
+- Backend web development with Flask
+- SQL database integration
+- User authentication and session management
+- API consumption
+- MVC-style application organization
+- Dynamic HTML rendering with Jinja
+
+---
+
+## Future Improvements
+
+- PostgreSQL migration
+- Docker support
+- Better UI/UX
+- Stock charts and analytics
+- Automated tests
+- Deployment to cloud platforms
+
+---
+
+## Acknowledgements
+
+Developed as part of Harvard University's CS50x – Introduction to Computer Science.
+
+Course: [CS50x by Harvard University](https://cs50.harvard.edu/x/)
