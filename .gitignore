@@ -10,10 +10,6 @@ venv/
 instance/
 .flaskenv
 
-# Database
-finance.db
-*.db
-
 # OS
 .DS_Store
 Thumbs.db
