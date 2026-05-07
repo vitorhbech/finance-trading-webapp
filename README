@@ -1,4 +1,4 @@
-# finance Trading Webapp
+# Finance Trading Webapp
 
 A web application inspired by real-world stock trading platforms, developed with Flask during Harvard's CS50x course.
 
@@ -89,6 +89,29 @@ python -m flask run
 ```
 
 ---
+
+## Screenshots
+
+- Dashboard
+![Dashboard](screenshots/dashboard.png)
+
+- Quote Lookup
+![Quote](screenshots/quote.png)
+
+- Buy Stocks
+![Buy](screenshots/buy.png)
+
+- Sell Stocks
+![Sell](screenshots/sell.png)
+
+- Transaction History
+![History](screenshots/history.png)
+
+- Login
+![Login](screenshots/login.png)
+
+- Register
+![Register](screenshots/register.png)
 
 ## Learning Outcomes
 
